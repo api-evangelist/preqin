@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Preqin is a company surfaced via the API Evangelist harvest backlog (source: capability-gaps) and added to the network as a stub for full-pipeline profiling.
-- https://www.preqin.com/
+Preqin provides data, analytics and insights on alternative assets and private markets. It serves investors, fund managers and service providers with comprehensive research, benchmarks, performance data, fundraising information, and deal flow across private equity, hedge funds, real estate, infrastructure, private debt and natural resources. The platform offers tools for market intelligence, portfolio analysis and strategic decision‑making, helping clients navigate the complex landscape of private capital.
+
+**Areas:** Company · Alternative Assets · Data · Analytics · Private Markets · Research
+
+## Preqin on APIs.io
+
+Everything profiled for Preqin is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/preqin/](https://apis.io/providers/preqin/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Preqin Active User Subscription Info API](https://apis.io/apis/preqin/preqin-active-user-subscription-info-api/) — Information relating to a user's API subscription
+- [Preqin Connect API](https://apis.io/apis/preqin/preqin-connect-api/) — Acquire access tokens for the Operational API using your username and API key.
+- [Preqin Deal API](https://apis.io/apis/preqin/preqin-deal-api/) — Access Preqin Deal data, including deal details and service provider information.
+- [Preqin Fund API](https://apis.io/apis/preqin/preqin-fund-api/) — Fund data, including lookups by service provider and investor.
+- [Preqin Fund Manager API](https://apis.io/apis/preqin/preqin-fund-manager-api/) — Endpoints for accessing Preqin Fund Manager data, including firm details, contacts, and deals.
+- [Preqin Fund Performance API](https://apis.io/apis/preqin/preqin-fund-performance-api/) — Fund Performance data for various asset classes.
+- [Preqin Investment Consultant API](https://apis.io/apis/preqin/preqin-investment-consultant-api/) — Investment Consultant data and related information
+- [Preqin Investor API](https://apis.io/apis/preqin/preqin-investor-api/) — Retrieve investor profiles, preferences, and allocation details.
+- [Preqin Investor Commitment (Add-on) API](https://apis.io/apis/preqin/preqin-investor-commitment-add-on-api/) — Retrieve investor commitment data, including commitment sizes and the funds and managers to which investors have committed.
+- [Preqin News API](https://apis.io/apis/preqin/preqin-news-api/) — Investor News data
+- [Preqin Service Provider API](https://apis.io/apis/preqin/preqin-service-provider-api/) — Information about Service Providers, their deals, funds, contacts, and addresses.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Preqin Agentic Access](https://apis.io/agentic-access/preqin/preqin-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DocumentOfDealServiceProviderLookupResponse](https://apis.io/schemas/preqin/preqin-document-of-deal-service-provider-lookup-response/)
+- [DocumentOfInvestmentConsultantAddressResponse](https://apis.io/schemas/preqin/preqin-document-of-investment-consultant-address-response/)
+- [DocumentOfInvestmentConsultantContactResponse](https://apis.io/schemas/preqin/preqin-document-of-investment-consultant-contact-response/)
+- [DocumentOfInvestmentConsultantKnownClientsResponse](https://apis.io/schemas/preqin/preqin-document-of-investment-consultant-known-clients-response/)
+- [DocumentOfServiceProviderFundsLookupResponse](https://apis.io/schemas/preqin/preqin-document-of-service-provider-funds-lookup-response/)
+- [RefreshTokenResponse](https://apis.io/schemas/preqin/preqin-refresh-token-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Preqin Context](https://apis.io/jsonld/preqin/preqin-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Preqin API Rules](https://apis.io/rules/preqin/preqin-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Preqin Authentication](https://apis.io/security/preqin/preqin-authentication/)
+- [Preqin Domain Security](https://apis.io/security/preqin/preqin-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.preqin.com/)
+- [API reference](https://developer.preqin.com/)
+- [Sign up](https://www.preqin.com/registerinterest/demo)
+- [Support](https://help.preqin.com/en/)
+- [Terms of service](https://www.preqin.com/policies/terms-conditions)
+- [Privacy policy](https://www.preqin.com/policies/privacy-policy)
+- [GitHub](https://github.com/preqin)
+
+## API Evangelist rating
+
+**Kin Score 50.0** — developing · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 61.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 34.2 |
+
+**Agent readiness 32.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/preqin/](https://apis.io/providers/preqin/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Preqin: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/preqin/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
